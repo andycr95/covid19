@@ -1,0 +1,21 @@
+{
+  "name": "covid19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "4.6.3"
+  }
+}
